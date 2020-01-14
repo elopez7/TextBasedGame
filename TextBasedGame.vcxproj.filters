@@ -18,12 +18,18 @@
     <ClCompile Include="SRC\Core\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SRC\Components\HealthComp.cpp">
+    <ClCompile Include="SRC\Components\StatsComp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header\Components\HealthComp.h">
+    <ClInclude Include="Header\Components\StatsComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
