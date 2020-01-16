@@ -2,7 +2,7 @@
 #define CHARACTER_H
 
 #include <string>
-class StatsComp;
+#include <StatsComp.h>
 
 class Character
 {
@@ -10,8 +10,8 @@ private:
 	StatsComp *stats;
 	std::string name;
 public:
-	virtual bool attack() = 0;
-	virtual bool print_stats() = 0;
+	virtual bool attack();
+	virtual bool print_stats();
 };
 
 #endif // !CHARACTER_H

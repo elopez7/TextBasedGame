@@ -3,6 +3,22 @@
 #include "StatsComp.h"
 
 
+StatsComp::StatsComp()
+{
+
+}
+
+StatsComp::StatsComp(float initial_health, float initial_max_health, float initial_attack, float initial_defense):
+	currrent_health{ initial_health }, max_health{ initial_max_health }, attack{ initial_attack }, defense{initial_defense}
+{
+
+}
+
+StatsComp::~StatsComp()
+{
+
+}
+
 float StatsComp::take_damage(float damage_amount)
 {
 	if (damage_amount <= defense)
