@@ -19,5 +19,5 @@ float StatsComp::take_damage(float damage_amount)
 
 bool StatsComp::kill_player()
 {
-
+	return false;
 }
